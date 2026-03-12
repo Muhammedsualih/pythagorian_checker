@@ -85,7 +85,7 @@ return nums[0]**2 + nums[1]**2 === nums[2]**2;
 
 /* Check if the number is valid */
 function isValidNumber(value){
-    return value > 0 && Number.isInteger(value);
+    return value > 0;
 }
 
 function handleCheck(){

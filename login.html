@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SQA Project</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Login</h2>
+        <div id="login-area">
+            <div class="input-group">
+                <label for="username">Username</label>
+                <input id="username" type="text" placeholder="Enter any 6-letter username">
+                <span id="user-icon"></span>
+            </div>
+            <div class="input-group">
+                <label for="password">Password</label>
+                <input id="password" type="password" placeholder="Password containing 'SWUSTCST'">
+                <span id="pass-icon"></span>
+            </div>
+            <button onclick="handleLogin()">Login</button>
+            <p id="login-msg"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
